@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix UI Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <nav>
+      <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="Netflix Logo" class="logo" />
+      <div>
+        <select name="languages" id="languagesSelect" class="language__drop__down">
+                            <option value="english" selected style="color: white;">English</option>
+                            <option value="hindi" style="color: white;">हिन्दी</option>
+                        </select>
+        <button class="sign-in">Sign In</button>
+      </div>
+    </nav>
+
+    <div class="hero-content clr-white">
+      <h1>Unlimited movies, TV shows and more</h1>
+      <h3 class="mt-2">Watch anywhere. Cancel anytime.</h3>
+      <h4 class="mt-2">Ready to watch? Enter your email to create or restart your membership.</h4>
+
+      <form class="membership email-form-container mt-2">
+        <div style="position: relative; width: 60%;">
+          <input type="email" required placeholder=" " class="email-input" id="email" />
+          <label for="email" class="email-label">Email address</label>
+        </div>
+        <button type="submit" class="primary-cta">Get Started &gt;</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-sec t-border">
+    <h2 class="clr-white txt-center">Frequently Asked Questions</h2>
+    <div class="faq mt-3">
+
+      <div class="faq-tab">
+        <input type="checkbox" id="faq1" />
+        <label for="faq1">What is Netflix?</label>
+        <div class="faq-answer">
+          <p>Netflix is a streaming service offering a wide variety of TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+        </div>
+      </div>
+
+      <div class="faq-tab">
+        <input type="checkbox" id="faq2" />
+        <label for="faq2">How much does Netflix cost?</label>
+        <div class="faq-answer">
+          <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month.</p>
+        </div>
+      </div>
+
+      <div class="faq-tab">
+        <input type="checkbox" id="faq3" />
+        <label for="faq3">Where can I watch?</label>
+        <div class="faq-answer">
+          <p>Watch anywhere, anytime, on an unlimited number of devices. Download your shows to watch offline.</p>
+        </div>
+      </div>
+
+      <div class="faq-tab">
+        <input type="checkbox" id="faq4" />
+        <label for="faq4">How do I cancel?</label>
+        <div class="faq-answer">
+          <p>Netflix is flexible. There are no contracts and no commitments. Cancel online anytime, 24 hours a day.</p>
+        </div>
+      </div>
+
+      <div class="faq-tab">
+        <input type="checkbox" id="faq5" />
+        <label for="faq5">What can I watch on Netflix?</label>
+        <div class="faq-answer">
+          <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="membership email-form-container mt-3">
+      <h4 class="clr-white txt-center">Ready to watch? Enter your email to create or restart your membership.</h4>
+      <div style="position: relative; width: 60%;">
+        <input type="email" required placeholder=" " class="email-input" id="email-footer" />
+        <label for="email-footer" class="email-label">Email address</label>
+      </div>
+      <button type="submit" class="primary-cta">Get Started &gt;</button>
+    </div>
+  </section>
+
+  <footer class="txt-center clr-white mt-3 mb-2">
+    <p class="copy-right">&copy; 2025 Netflix Clone by Saimadhav</p>
+  </footer>
+
+</body>
+</html>
